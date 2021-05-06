@@ -2,18 +2,21 @@
 	"use strict";
 	var converts = [
 		{ // Video
-			from: /<a href="(?:https?:\/\/)?(?:www\.)?bilibili\.(?:tv|com)\/video\/av(\d+).*?">.+<\/a>/g,
+			from: /<a href="(?:https?:\/\/)?(?:www\.)?acfun\.(?:tv|cn)\/v\/ac(\d+).*?">.+<\/a>/g,
 			to: '<div class="embed-responsive embed-responsive-16by9">' +
-				'<iframe allowfullscreen="" scrolling="no" src="//player.bilibili.com/player.html?aid=$1&as_wide=1" ' +
-				'style="border:0;height:100%;left:0;position:absolute;width:100%"></iframe></div>'
+				'<iframe style="min-width: 500px;min-height: 300px" src="https://www.acfun.cn/player/ac$1" ' +
+				'id="ACPlayer-re" '+
+				'scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div>'
 		},
 		{
-			// b23 video (short url)
-			// eg: https://b23.tv/av*****
-			from: /<a href="(?:https?:\/\/)?(?:www\.)?b23\.(?:tv|com)\/av(\d+).*?">.+<\/a>/g,
+			// m.acfun.cn video
+			from: /<a href="(?:https?:\/\/)?(?:m\.)?acfun\.(?:tv|cn)\/v\/\?ac=(\d+).*?">.+<\/a>/g,
 			to: '<div class="embed-responsive embed-responsive-16by9">' +
-				'<iframe allowfullscreen="" scrolling="no" src="//player.bilibili.com/player.html?aid=$1&as_wide=1" ' +
-				'style="border:0;height:100%;left:0;position:absolute;width:100%"></iframe></div>'
+				'<iframe style="min-width: 500px;min-height: 300px" src="https://www.acfun.cn/player/ac$1" ' +
+			'id="ACPlayer-re" '+
+			'scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></div>'
+		
+		
 		}
 	];
 

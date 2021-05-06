@@ -1,33 +1,23 @@
 {
-  "author": {
-    "name": "Jeremy Lam",
-    "email": "jlchntoz@hkcdc.org",
-    "url": "http://gh.jlctz.tk/"
-  },
-  "bugs": {
-    "url": "https://github.com/JLChnToZ/nodebb-plugin-bilibili/issues"
-  },
-  "bundleDependencies": false,
-  "deprecated": false,
-  "description": "NodeBB Plugin that allows users to embed BiliBili videos inline in their posts.",
-  "homepage": "https://github.com/JLChnToZ/nodebb-plugin-bilibili",
-  "keywords": [
-    "NodeBB",
-    "Plugin",
-    "bilibili"
-  ],
-  "license": "MIT",
+  "name": "nodebb-plugin-acfun",
+  "version": "1.0.0",
+  "description": "This NodeBB plugin allows users to embed Acfun videos inline in their posts.",
   "main": "index.js",
-  "name": "nodebb-plugin-bilibili",
-  "nbbpm": {
-    "compatibility": "^1.6.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JLChnToZ/nodebb-plugin-bilibili.git"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.3.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mccleaner/nodebb-plugin-acfun.git"
+  },
+  "keywords": [
+    "nodebb",
+    "acfun"
+  ],
+  "author": "mccleanmaster",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mccleaner/nodebb-plugin-acfun/issues"
+  },
+  "homepage": "https://github.com/mccleaner/nodebb-plugin-acfun#readme"
 }

@@ -1,8 +1,8 @@
 {
-	"id": "nodebb-plugin-bilibili",
-	"name": "NodeBB BiliBili Plugin",
-	"description": "NodeBB Plugin that allows users to embed BiliBili videos inline in their posts.",
-	"url": "https://github.com/JLChnToZ/nodebb-plugin-bilibili",
+	"id": "nodebb-plugin-acfun",
+	"name": "NodeBB Acfun Plugin",
+	"description": "NodeBB Plugin that allows users to embed Acfun videos inline in their posts.",
+	"url": "https://github.com/mccleaner/nodebb-plugin-acfun",
 	"library": "./index.js",
 	"less": [
 		"responsive-embed.less"
